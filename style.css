@@ -1,0 +1,125 @@
+/* Genel Stiller */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  /* Header ve Navigasyon */
+  header {
+    background-color: whitesmoke;
+    padding: 10px 0;
+  }
+  
+  .navigation .header-links {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation .header-links li {
+    margin: 0 15px;
+  }
+  
+  .navigation .header-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .navigation .header-links a.sign {
+    color: #4285f4;
+    font-weight: bold;
+  }
+  
+  .icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  /* Logo ve Arama Alanı */
+  .container .logo {
+    margin: 20px auto;
+    max-width: 350px;
+  }
+  
+  .search-area {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: #fff;
+  }
+  
+  .search-button,
+  .voice {
+    width: 28px;
+    height: 28px;
+    margin: 0 10px;
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: whitesmoke;
+    padding: 20px 0;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin: 0 15px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .footer-links .right {
+    margin-left: auto;
+  }
+  
